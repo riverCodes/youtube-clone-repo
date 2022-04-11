@@ -114,7 +114,7 @@
     white-space: nowrap;
     position: absolute;
     bottom: -40px;
-    background-color: rgba(92, 92, 92, 0.7);
+    background-color: rgba(92, 92, 92, 0.9);
     padding: 8px;
     border-radius: 2px;
     color: white;
@@ -122,6 +122,7 @@
     z-index: 150;
     opacity: 0;
     transition: opacity 0.2s;
+    pointer-events: none;
 }
 .search-button:hover .tooltip,
 .voice-search-button:hover .tooltip,
