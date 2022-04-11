@@ -51,6 +51,7 @@
     font-family: roboto, Arial;
     flex: 1;
     width: 0;
+    max-width: 400px;
 }
 .search-bar::placeholder {
     font-size: 16px;

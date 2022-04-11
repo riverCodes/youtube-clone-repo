@@ -6,6 +6,18 @@ body {
     margin-right: 30px;
     background-color: #f9f9f9;
 }
+
+@media (max-width: 800px) {
+    body {
+        margin-left: 25px;
+    }
+}
+
+@media (min-width: 1300px) {
+    body {
+        margin-left: 225px;
+    }
+}
 p {
     margin: 0;
 }
@@ -15,3 +27,4 @@ a {
     text-decoration: none;
     color: black;
 }
+
