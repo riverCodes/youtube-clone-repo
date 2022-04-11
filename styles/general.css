@@ -1,3 +1,14 @@
 body {
     font-family: roboto, Arial;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+a:hover,
+a:visited,
+a {
+    text-decoration: none;
+    color: black;
+    vertical-align: bottom;
 }
